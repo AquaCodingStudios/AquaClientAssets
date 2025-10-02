@@ -1,0 +1,32 @@
+//test
+
+div #display {
+    size: 512 288
+    center: both
+    border-radius: 10
+    border-thickness: 0
+    border-color: #412752
+    background-color: #000000
+
+    child-align: grid
+    grid-columns: 1
+
+    div #title {
+        inner-text: "AquaClient"
+        size: 100% 10
+        text-align: center
+        text-scale: 1.69
+        text-color: #ffffff
+        background-color: none
+        margin-top: 15
+    }
+    div #version {
+        inner-text: "v2.0"
+        size: 100% 10
+        text-align: center
+        text-scale: 1.0
+        text-color: #ffffff
+        background-color: none
+        margin-top: 5
+    }
+}
